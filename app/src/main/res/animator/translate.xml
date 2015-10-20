@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+<objectAnimator
+    android:duration="3000"
+    android:interpolator="@android:interpolator/accelerate_decelerate"
+    android:repeatCount="1"
+    android:propertyName="translationX"
+    android:valueFrom="200"
+    android:valueTo="-10"
+    android:valueType="floatType"
+    >
+</objectAnimator>
+    <objectAnimator
+        android:duration="3000"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        android:repeatCount="1"
+        android:propertyName="translationY"
+        android:valueFrom="200"
+        android:valueTo="-10"
+        android:valueType="floatType"
+        >
+
+    </objectAnimator>
+</set>
