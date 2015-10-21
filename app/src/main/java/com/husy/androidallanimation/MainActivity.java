@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     @Bind(R.id.object_animator)
     TextView objectAnimator;
     @Bind(R.id.xml_object_animator)
-    TextView xmlObjectAnimator;
+    TextView XMLObjectAnimator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.code_animation, R.id.xml_animation, R.id.object_animator,R.id.xml_object_animator})
+    @OnClick({R.id.code_animation, R.id.xml_animation,
+            R.id.object_animator,R.id.xml_object_animator})
     public void onclick(View v) {
         switch (v.getId()) {
             case R.id.code_animation:

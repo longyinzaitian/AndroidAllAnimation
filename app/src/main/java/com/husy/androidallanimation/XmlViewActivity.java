@@ -67,7 +67,7 @@ public class XmlViewActivity extends AppCompatActivity {
 
                     @Override
                     public void onAnimationEnd(Animation animation) {
-                        Toast.makeText(XmlViewActivity.this,"结束啦。",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(XmlViewActivity.this,"结束啦。。。。。。",Toast.LENGTH_SHORT).show();
                     }
 
                     @Override

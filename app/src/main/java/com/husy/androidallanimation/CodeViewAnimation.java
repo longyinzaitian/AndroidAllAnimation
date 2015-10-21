@@ -65,7 +65,7 @@ public class CodeViewAnimation extends AppCompatActivity implements View.OnClick
                 break;
             case R.id.traslate:
                 TranslateAnimation translateAnimation = new TranslateAnimation(30, 90, 30, 90);
-                translateAnimation.setDuration(3000);
+                translateAnimation.setDuration(2000);
                 traslate.startAnimation(translateAnimation);
                 break;
             case R.id.scale:
@@ -74,7 +74,7 @@ public class CodeViewAnimation extends AppCompatActivity implements View.OnClick
 
                 //指定为组件的中心
                 ScaleAnimation scaleAnimation = new ScaleAnimation(0.2f, 1, 0.2f, 1, scale.getWidth() / 2, scale.getHeight() / 2);
-                scaleAnimation.setDuration(3000);
+                scaleAnimation.setDuration(2000);
                 scaleAnimation.setAnimationListener(new Animation.AnimationListener() {
                     @Override
                     public void onAnimationStart(Animation animation) {
@@ -96,11 +96,11 @@ public class CodeViewAnimation extends AppCompatActivity implements View.OnClick
             case R.id.all_ani:
                 Log.i("dd", "allani");
                 AlphaAnimation alphaAnimation1 = new AlphaAnimation(0.3f,1f);
-                alphaAnimation1.setDuration(5000);
+                alphaAnimation1.setDuration(2000);
                 ScaleAnimation scaleAnimation1 = new ScaleAnimation(0,1,0,1,allAni.getWidth()/2,allAni.getHeight()/2);
-                scaleAnimation1.setDuration(5000);
+                scaleAnimation1.setDuration(2000);
                 RotateAnimation rotateAnimation1 = new RotateAnimation(0,360,allAni.getWidth()/2,allAni.getHeight()/2);
-                rotateAnimation1.setDuration(5000);
+                rotateAnimation1.setDuration(2000);
                 AnimationSet set = new AnimationSet(true);
                 set.addAnimation(alphaAnimation1);
                 set.addAnimation(scaleAnimation1);
@@ -117,7 +117,7 @@ public class CodeViewAnimation extends AppCompatActivity implements View.OnClick
 
                     @Override
                     public void onAnimationEnd(Animation animation) {
-                        Toast.makeText(CodeViewAnimation.this,"结束啦。",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(CodeViewAnimation.this,"结束啦。.。。",Toast.LENGTH_SHORT).show();
                     }
 
                     @Override

@@ -34,6 +34,7 @@ public class CodeObjectAnimActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_object_anim);
         ButterKnife.bind(this);
+
     }
 
     @OnClick({R.id.traslate, R.id.alpha, R.id.rotate,R.id.scale, R.id.zuhe1, R.id.zuhe2})
@@ -42,7 +43,7 @@ public class CodeObjectAnimActivity extends AppCompatActivity {
             case R.id.traslate:
                 ObjectAnimator translateA =
                         ObjectAnimator.ofFloat(traslate, "translationX", 300, -200);
-                translateA.setDuration(3000);
+                translateA.setDuration(2000);
                 translateA.setRepeatCount(1);
                 translateA.addListener(new Animator.AnimatorListener() {
                     @Override
