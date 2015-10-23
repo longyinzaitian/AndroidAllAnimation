@@ -17,4 +17,6 @@ XML控制属性动画
 非常适合初学者对于视图动画和属性动画的用法的掌握。
 
 欢迎访问我的[博客](http://blog.csdn.net/u010156024/article/details/49281789)!  
-有什么问题，欢迎留言评论！【握手~】
+有什么问题，欢迎留言评论！【握手~】  
+欢迎关注[我的github](https://github.com/longyinzaitian)！  
+Follow me!
