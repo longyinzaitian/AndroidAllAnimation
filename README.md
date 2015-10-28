@@ -20,3 +20,6 @@ XML控制属性动画
 有什么问题，欢迎留言评论！【握手~】  
 欢迎关注[我的github](https://github.com/longyinzaitian)！  
 Follow me!
+
+另外，关于android动画部分，我的另一个
+[帧动画和布局动画](https://github.com/longyinzaitian/FrameAndLayoutAnimation)的小项目也给出了较为详细的用法。欢迎访问。
